@@ -1,19 +1,19 @@
 Package: appy
-Version: 0.4-1
-Architecture: all
+Source: appy
+Version: 0.1
+Architecture: amd64
 Maintainer: Ion@TeLOS <teloslinux@protonmail.com>
-Installed-Size: 892
-Depends: yad, libnotify-bin, xdg-utils, wget, curl, pqiv, iputils-ping, imagemagick, policykit-1, procps
-Recommends: flatpak
-Suggests: snapd, npm
-Filename: ./appy_0.4-1_all.deb
-Size: 280412
-MD5sum: b104f6fa52697c856ef3376145fe0dca
-SHA1: 95fe169dfb1b2a5cf3a738a2ef58175e8403ea8a
-SHA256: 171ddf26abe10e50f92b568a3fb24dd4fcab86a2c98beb21754456bfa2108309
+Depends: yad,libnotify-bin,xdg-utils,wget,curl,pqiv,iputils-ping,policykit-1,procps
+Recommends: apt-file
+Suggests: flatpak,snapd,npm,imagemagick
+Filename: ./appy_0.1-1_amd64.deb
+Size: 206324
+MD5sum: 078c10baa070311379516fff6baf0e3b
+SHA1: 9afff32c9ba0da81ffd6826382ef2b041c54652e
+SHA256: 28b3517c5ac6e472188755f5284c4bddd530207b5780a2c35bcd0085e776d0db
 Section: Miscellaneous - Graphical
 Priority: optional
 Homepage: https://teloslinux.org
 Description: Lightweight, alternative Software Manager for modern Linux applications
- Appy provides a graphical user interface frontend for the flatpak and snap commands and a safe way to use the apt command. Appy can help you integrate AppImages into your System or build desktop web applications. Automatic updates is a built-in feature. Appy introduces the surf-to-get-app approach : Browse the web to find the flatpak or snap app you want and click on the "Install" button on flathub.org or snapcraft.io to make it happen ! Appy is written in bash script and uses yad dialog for GUI. Therefore, it has a low overhead using less RAM and processing power compared to your "other" Software Manager. This makes Appy suitable for less powerfull hardware and a fast tool to get the applications you want and easily manage them. A dedicated section of Appy - AppyHub - makes it easy to install several popular applications, including some non-free ones. This app has been developed and is being actively maintained by Ion @ TeLOS Linux (https://teloslinux.org). Appy has been created to become the default Software Manager in TeLOS Linux and is suitable for all Debian and Debian - based Linux distributions
+ Appy provides a graphical user interface frontend for the flatpak and snap commands and a safe way to use the apt command. Appy can help you integrate AppImages into your System or build desktop web applications. Automatic system updates is a built-in app feature. Appy introduces the surf-to-get-app approach : Browse the web to find the flatpak or snap app you want and click on the "Install" button on flathub.org or snapcraft.io to make it happen ! Appy is written in bash script and uses yad dialog for GUI. Therefore, it has a low overhead using less RAM and processing power compared to your "other" Software Manager. This makes Appy suitable for less powerfull hardware and a fast tool to get the applications you want and easily manage them. A dedicated section of Appy - AppyHub - makes it easy to install several popular applications, including some non-free ones. This app has been developed and is being actively maintained by Ion @ TeLOS Linux (https://teloslinux.org). Appy has been created to become the default Software Manager in TeLOS Linux and is suitable for all Debian and Debian - based Linux distributions
 
