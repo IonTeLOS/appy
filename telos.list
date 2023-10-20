@@ -1,1 +1,1 @@
-deb [trusted=yes] https://iontelos.github.io/appy ./
+deb [signed-by=/usr/share/keyrings/appy.gpg] https://iontelos.github.io/appy ./
