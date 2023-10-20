@@ -2,13 +2,11 @@
 
 To get Appy Software Manager :
 
-curl -s --compressed "https://iontelos.github.io/appy/KEY.gpg" | sudo apt-key add -
+wget -qO - https://iontelos.github.io/appy/KEY.gpg | sudo gpg --dearmor -o /usr/share/keyrings/appy.gpg
 
 sudo curl -s --compressed -o /etc/apt/sources.list.d/telos.list "https://iontelos.github.io/appy/telos.list"
 
-cd /etc/apt
-
-sudo cp trusted.gpg trusted.gpg.d
+sudo apt clean
 
 sudo apt update
 
