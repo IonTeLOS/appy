@@ -1,0 +1,93 @@
+Package: appy
+Source: appy
+Version: 0.1
+Architecture: amd64
+Maintainer: Ion@TeLOS <teloslinux@protonmail.com>
+Depends: yad,libnotify-bin,xdg-utils,wget,curl,pqiv,iputils-ping,policykit-1,procps
+Recommends: apt-file
+Suggests: flatpak,snapd,npm,imagemagick
+Filename: ./appy_0.1-1_amd64.deb
+Size: 206324
+MD5sum: 078c10baa070311379516fff6baf0e3b
+SHA1: 9afff32c9ba0da81ffd6826382ef2b041c54652e
+SHA256: 28b3517c5ac6e472188755f5284c4bddd530207b5780a2c35bcd0085e776d0db
+Section: Miscellaneous - Graphical
+Priority: optional
+Homepage: https://teloslinux.org
+Description: Lightweight, alternative Software Manager for modern Linux applications
+ Appy provides a graphical user interface frontend for the flatpak and snap commands and a safe way to use the apt command. Appy can help you integrate AppImages into your System or build desktop web applications. Automatic system updates is a built-in app feature. Appy introduces the surf-to-get-app approach : Browse the web to find the flatpak or snap app you want and click on the "Install" button on flathub.org or snapcraft.io to make it happen ! Appy is written in bash script and uses yad dialog for GUI. Therefore, it has a low overhead using less RAM and processing power compared to your "other" Software Manager. This makes Appy suitable for less powerfull hardware and a fast tool to get the applications you want and easily manage them. A dedicated section of Appy - AppyHub - makes it easy to install several popular applications, including some non-free ones. This app has been developed and is being actively maintained by Ion @ TeLOS Linux (https://teloslinux.org). Appy has been created to become the default Software Manager in TeLOS Linux and is suitable for all Debian and Debian - based Linux distributions
+
+Package: dina
+Version: 0.1-3
+Architecture: amd64
+Maintainer: Ion@TeLOS <teloslinux@protonmail.com>
+Installed-Size: 21577
+Depends: curl, wget, libayatana-appindicator3-1, libwebkit2gtk-4.0-37, libgtk-3-0, python3-flask, xdotool, wmctrl, policykit-1
+Recommends: icoutils, yad | libnotify-bin
+Filename: ./dina_0.1-3_amd64.deb
+Size: 4523624
+MD5sum: 59c0ec72819cb0adce53907727afba38
+SHA1: 20146c61d0776f278b4dde332c383661f757c31e
+SHA256: 445e58fc299ebd2a7f9c809a1443eaf866f34f83e9e12f66b50c9102e9e3b798
+Section: web
+Priority: optional
+Homepage: https://teloslinux.org
+Description: Minimal ..dinamic web browser
+ Dina is a minimalistic browser built with tauri, Pake, yad and bash. It uses the webkit rendering engine.
+ Some features included in Dina are: Startpage and search engine selection, bookmarks, the option to autostart app in fullscreen, "kiosk mode", and "installing" websites as apps. Dina currently supports following extensions: i. DinaTerm Terminal, which enables you to run a terminal emulator in your browser and ii. DinaFiles File Manager extension which is an in-browser file manager, file viewer and text editor.
+ Dina has a small download and installed size and reuses components which are probably already present in your system, like libwebkit.
+ The source and package (https://github.com/iontelos/Dina) are maintained by Ion@TeLOS (teloslinux@protonmail.com).
+ Pake (https://github.com/tw93/Pake) is a credited external project.
+ .
+ Enjoy!
+
+Package: dinafiles
+Version: 0.1-1
+Architecture: amd64
+Maintainer: Ion@TeLOS <teloslinux@protonmail.com>
+Installed-Size: 114
+Depends: wget, curl, xdg-utils
+Recommends: yad | libnotify-bin
+Filename: ./dinafiles_0.1-1_amd64.deb
+Size: 66944
+MD5sum: 9728164dc90fd7b719ed49722110b72e
+SHA1: 65147f31d0aaec8c264dab59d9110b102303949f
+SHA256: 24422e414127a76e94112311423ae52d593f18f958a195b475e33bd3eb69e5d7
+Section: misc
+Priority: optional
+Homepage: https://teloslinux.org
+Description: A file manager in your browser
+ DinaFiles is a file manager that runs inside your browser. DinaFiles was developed to be an extension for Dina Browser https://github.com/iontelos/Dina.
+ The installation of Dina is suggested but not required to use DinaFiles.
+ Dina Browser is a minimal browser built with tauri and Pake and uses the WebKit rendering engine.
+ filebrowser https://github.com/filebrowser/filebrowser and Pake https://github.com/tw93/Pake are credited external projects with their own licenses.
+ The source and package of DinaFiles https://github.com/IonTeLOS/dinafiles and Dina Browser are maintained by Ion@TeLOS
+ <teloslinux@protonmail.com>.
+ .
+ Enjoy!
+
+Package: dinaterm
+Version: 0.1-1
+Architecture: amd64
+Maintainer: Ion@TeLOS <teloslinux@protonmail.com>
+Installed-Size: 62
+Depends: wget, xdg-utils
+Recommends: yad | libnotify-bin
+Filename: ./dinaterm_0.1-1_amd64.deb
+Size: 41804
+MD5sum: 0e6d52781e0200757631d1e7709c999a
+SHA1: e6cf843045c2108042d7338c815d7dea8c69a557
+SHA256: 88a2e4b4f4da18eb9aede04b065b4bb43750e75eab7f8c8ea6cb517ad9e9a1af
+Section: misc
+Priority: optional
+Homepage: https://teloslinux.org
+Description: A full terminal in your browser
+ DinaTerm is a fully functional terminal emulator running in your browser. DinaTerm was developed to be an extension for Dina Browser https://github.com/iontelos/Dina.
+ The installation of Dina is suggested but not required to use DinaTerm.
+ Dina Browser is a minimal browser built with tauri and Pake and uses the WebKit rendering engine.
+ pyxterm.js https://github.com/cs01/pyxtermjs and Pake https://github.com/tw93/Pake are credited external projects with their own licenses.
+ The source and package of DinaTerm https://github.com/IonTeLOS/dinaterm and Dina Browser are maintained by Ion@TeLOS
+ <teloslinux@protonmail.com>.
+ .
+ Enjoy!
+
