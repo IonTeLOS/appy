@@ -25,10 +25,10 @@ Installed-Size: 21577
 Depends: curl, wget, libayatana-appindicator3-1, libwebkit2gtk-4.0-37, libgtk-3-0, python3-flask, xdotool, wmctrl, policykit-1
 Recommends: icoutils, yad | libnotify-bin
 Filename: ./dina_0.1-3_amd64.deb
-Size: 4523624
-MD5sum: 59c0ec72819cb0adce53907727afba38
-SHA1: 20146c61d0776f278b4dde332c383661f757c31e
-SHA256: 445e58fc299ebd2a7f9c809a1443eaf866f34f83e9e12f66b50c9102e9e3b798
+Size: 4523652
+MD5sum: 71699d0408e50388690146b79ca34f17
+SHA1: eac19c30807ccdec83fb5df31c4ff7bbefd02efc
+SHA256: 833b52d32cb70bcd8893bb295205673ce06b0c329a3a5aff98b2f1c6e1fb0be2
 Section: web
 Priority: optional
 Homepage: https://teloslinux.org
@@ -50,9 +50,9 @@ Depends: wget, curl, xdg-utils
 Recommends: yad | libnotify-bin
 Filename: ./dinafiles_0.1-1_amd64.deb
 Size: 66944
-MD5sum: 9728164dc90fd7b719ed49722110b72e
-SHA1: 65147f31d0aaec8c264dab59d9110b102303949f
-SHA256: 24422e414127a76e94112311423ae52d593f18f958a195b475e33bd3eb69e5d7
+MD5sum: 215dab45bbe36b68bd955424cc642194
+SHA1: 1fd4b926dcc8e38b9c0237c91aba2de7faf65b34
+SHA256: e310a30b2dd08dff57581c9fc0e9019c2a008621837fbe3fa72c18ad74fa70e6
 Section: misc
 Priority: optional
 Homepage: https://teloslinux.org
